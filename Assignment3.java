@@ -84,7 +84,8 @@ public class Exercise {
         int sum5 = 0;
         for (int i = 0; i < mdArray.length; i++) {
             for (int j = 0; j < mdArray.length; j++) {
-                if ((i == 1 && j == 1) || (i == 2 && j == 2) || (i == 1 && j == 2) || (i == 2 && j == 1) || (i == 0 && j == 0) || (i == 3 && j == 3) || (i == 0 && j == 3) || (i == 3 && j == 0)) {
+                if ((i == 1 && j == 1) || (i == 2 && j == 2) || (i == 1 && j == 2) || (i == 2 && j == 1) || (i == 0 && j == 0) 
+                    || (i == 3 && j == 3) || (i == 0 && j == 3) || (i == 3 && j == 0)) {
                 sum5 += mdArray[i][j]; 
                 }
             }    
